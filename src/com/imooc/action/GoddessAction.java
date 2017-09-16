@@ -53,11 +53,11 @@ public class GoddessAction {
 		g.setEmail("668@168.com");
 		g.setMobile("13755242687");
 		g.setCreate_user("admin");
-		g.setUpdate_user("root");
+		g.setUpdate_user(null);
 		g.setBirthday(new Date());
 		g.setIsDel(0);
 //		gd.updataGoddess(g);
-//		gd.addGoddess(g);
+		gd.addGoddess(g);
 //		List<Goddess> list = gd.query("Ã÷", "5524", "@");
 //		for (Goddess goddess : list) {
 //			System.out.print(goddess.getId()+" "+goddess.getUser_name()+" "+goddess.getAge());
